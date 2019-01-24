@@ -3,8 +3,10 @@
 % This project utilizes the MIT License.
 
 \documentclass[11pt,a4paper,sans]{letter} % sets the document class
+
 \usepackage[scale=0.75]{geometry} % Use to control margins
 \usepackage{blindtext} % imports package for sample text
+\usepackage[en-US]{datetime2}
 
 \pagenumbering{gobble} % This line turns of page numbers at bottom of page. Delete this line if you want page numbers
 
@@ -13,7 +15,7 @@ FirstName LastName \\ % Put your name here
 Street Address \\ % Put your street address here
 City, State 00000 % City, State Zip Code for Address
 
-October 16, 2018 % Add date of letter
+\today % Add current date to letter
 
 Company Name\\ % Company offering the position this cover letter is about
 City, State % Location of the company
